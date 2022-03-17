@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="date_picker_day_width" type="dimen">30dp</item>
+    <item name="date_picker_day_height" type="dimen">30dp</item>
+    <item name="date_picker_day_of_week_height" type="dimen">24dp</item>
+    <item name="date_picker_day_font_size" type="dimen">16sp</item>
+    <item name="day_text_size" type="dimen">15sp</item>
+    <item name="day_text_color" type="color">#171921</item>
+    <item name="pad_day_text_color" type="color">#999999</item>
+    <item name="day_disabled_text_color" type="color">#999999</item>
+    <item name="day_highlight_background_color" type="color">#E4E4E4</item>
+    <item name="day_selected_text_color" type="color">#fff</item>
+    <item name="vertical_offset" type="dimen">10dp</item>
+    <item name="full_day" type="bool">true</item>
+
+    <item name="week_text_size" type="dimen">12sp</item>
+    <item name="week_text_color" type="color">#999999</item>
+    <item name="week_background_color" type="color">#FFF6F6F6</item>
+
+    <item name="week_bottom_offset" type="dimen">10dp</item>
+</resources>

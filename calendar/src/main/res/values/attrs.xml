@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MonthView">
+        <attr name="dayTextSize" format="dimension" />
+        <attr name="dayTextColor" format="color" />
+        <attr name="padDayTextColor" format="color" />
+        <attr name="daySelectedTextColor" format="color" />
+        <attr name="dayDisabledTextColor" format="color" />
+        <attr name="daySelectedBackgroundColor" format="color" />
+        <attr name="dayHighlightBackgroundColor" format="color" />
+        <attr name="verticalOffset" format="dimension" />
+        <attr name="fullDay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="WeekView">
+        <attr name="weekTextSize" format="dimension" />
+        <attr name="weekTextColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DatePickerView">
+        <attr name="weekBottomOffset" format="dimension" />
+    </declare-styleable>
+</resources>

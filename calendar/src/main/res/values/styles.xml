@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultMonthViewStyle">
+        <item name="dayTextSize">@dimen/day_text_size</item>
+        <item name="dayTextColor">@color/day_text_color</item>
+        <item name="padDayTextColor">@color/pad_day_text_color</item>
+        <item name="dayDisabledTextColor">@color/day_disabled_text_color</item>
+        <item name="dayHighlightBackgroundColor">@color/day_highlight_background_color</item>
+        <item name="daySelectedTextColor">@color/day_selected_text_color</item>
+        <item name="verticalOffset">@dimen/vertical_offset</item>
+        <item name="fullDay">@bool/full_day</item>
+    </style>
+
+    <style name="DefaultWeekViewStyle">
+        <item name="weekTextSize">@dimen/week_text_size</item>
+        <item name="weekTextColor">@color/week_text_color</item>
+        <item name="backgroundColor">@color/week_background_color</item>
+    </style>
+
+    <style name="DefaultDatePickerViewStyle">
+        <item name="weekBottomOffset">@dimen/week_bottom_offset</item>
+    </style>
+</resources>
