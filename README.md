@@ -117,3 +117,23 @@ DatePickerView的适配器，需要重写的方法
         }
         findViewById<CalendarPickerView>(R.id.month_view).setAdapter(adapter)
 ```
+
+## 集成
+根目录build.gradle添加：
+
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+```
+
+模块build.gradl添加：
+
+```groovy
+dependencies {
+        implementation 'com.github.lyqiai:wheelview:0.0.1'
+}
+```
